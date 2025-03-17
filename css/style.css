@@ -12,12 +12,9 @@
     width: auto;
     height: auto;
   }
-  
-nav a:focus {
-    outline: 2px solid #007BFF;} 
 
 header img {
-  height: 80px;
+  height: 60px;
   margin-left: 40px;
 }
 
@@ -27,7 +24,7 @@ header{
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   box-shadow: 0 0 25px 0 black;
@@ -75,8 +72,8 @@ header li a{
 }
 
 a {
-  color: #007bff; /* Default link color */
-   text-decoration: underline;
+  color: #00274C; /* Default link color */
+  text-decoration: underline;
 }
 
 
@@ -86,7 +83,7 @@ a:hover {
 }
 
 a:focus {
-  outline: 2px solid #ffcc00; /* High-contrast outline for keyboard focus */
+  outline: 2px solid #00274C; /* High-contrast outline for keyboard focus */
 }
 
 a:active {
@@ -96,10 +93,34 @@ a:active {
 
 /* H1 Style */
 h1 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
+  font-weight: bolder;
 }
 
+h2{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+}
 
 /* Body Style */
 body {
@@ -112,23 +133,17 @@ overflow-x: hidden;
 }
 
 body{ 
-  
- 
   padding: 10px;
   grid-template-areas: 'header' 'main' 'footer';
 }
-
-
 
 /* Container Style */
 .container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  padding: 15px;
+  padding: 20px;
 } 
-
-
 
 /* Card Style */
 .card {
@@ -183,6 +198,7 @@ body{
 
 /* Footer */
 footer{
-  background-color: lightgrey;
+  color: #00274C;
+  background-color: white;
   grid-area: footer;
 }
