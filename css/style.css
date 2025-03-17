@@ -5,6 +5,7 @@
     width: 1px;
     height: 1px;
     overflow: hidden;
+    color: #00274C;
   }
 
 .skip:focus {
@@ -72,22 +73,22 @@ header li a{
 }
 
 a {
-  color: #00274C; /* Default link color */
+  color: #FFCB05;
   text-decoration: underline;
 }
 
 
 a:hover {
-  color: #0056b3; /* Change color on hover */
-  background-color: #e0e0e0; /* Add background color */
+  color: #0056b3; 
+  background-color: #e0e0e0; 
 }
 
 a:focus {
-  outline: 2px solid #00274C; /* High-contrast outline for keyboard focus */
+  outline: 2px solid #00274C; 
 }
 
 a:active {
-  color: #ff0000; /* Change color when clicked */
+  color: #ff0000; 
 } */
 
 
@@ -158,6 +159,10 @@ body{
   word-wrap: break-word;
 }
 
+.card a{
+  color: #FFCB05;
+}
+
 .cards {
   margin: 20em;
   display: grid;
@@ -181,7 +186,7 @@ body{
 .video-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+  padding-bottom: 56.25%; 
   height: 0;
   overflow: hidden;
 }
@@ -201,4 +206,8 @@ footer{
   color: #00274C;
   background-color: white;
   grid-area: footer;
+}
+
+footer a{
+  color:#00274C;
 }
