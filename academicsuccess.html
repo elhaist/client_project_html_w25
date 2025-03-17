@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/block_m.png" />
     <title>Student Success Portal</title>
 </head>
 <body>
-    <header>
-            <a href = "#main">Skip to Main Content</a>
+    <div class="skip"><a href="">Skip to Main Content</a></div>
+    <header class="header">
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
-            <ul>
+        <nav class="nav">
+            <ul class="nav-links">
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "advisingresources.html">MSI Advising</a></li>
+                <li><a href = "academicsuccess.html" class="active">Academic Success</a></li>
                 <li><a href = "schoollifebalance.html">School and Life Balance</a></li>
                 <li><a href = "timesofcrisisresources.html">Resources for Times of Crisis</a></li>
             </ul>
-            <img src="images/spring.jpg" alt="North Quad during spring">
         </nav>
-        <h1>MSI Advising Resources</h1>
-
     </header>
-    <main id="main">
-        <section>
+
+    <main class="container" id= "main">
+        <h1>Academic Success</h1>
+        <img src="images/spring.jpg" alt="North Quad during spring">
+
+        <div class="container"></div>
             <h2>Welcome to the UMSI Academic Success Page!</h2>
             <p>A guide to succeeding academically at UMSI</p>
             <p>On this page you can find the following resources:</p>
@@ -32,9 +36,11 @@
                 <li>MSI Degree Requirements</li>
                 <li>Tutoring Resources</li>
             </ol>
-        </section>
-        <section>
-            <h2>Important Dates for Winter 2025</h2>
+        </div>
+       
+       
+       
+        <div class="card"><h3>Important Dates for Winter 2025</h3>
             <p>Make sure to take note of these important dates/deadlines for the Winter 2025 Semester:</p>
             <ul>
                 <li><strong>January 28:</strong> Add/Drop Deadline for Winter 2025 classes</li>
@@ -46,9 +52,10 @@
             </ul>
             <p>To see more important dates for all of campus, view this calendar:</p>
             <p><a href="https://ro.umich.edu/calendars?term=130&type%5B107%5D=107&type%5B108%5D=108&keys=">UM Academic Calendar </a></p>
-        </section>
-        <section>
-            <h2>Advising Appointments</h2>
+
+        </div>
+
+        <div class="card"><h4>Advising Appointments</h4>
             <p>The MSI academic advisors are available to help you navigate academics at the University of Michigan.</p>
             <p>The MSI academic advisors can help you:</p>
             <ul>
@@ -62,11 +69,12 @@
                 <li>Natalie Drobny</li>
                 <li>Allie Prough</li>
             </ul>
-        </section>
-        <section>
-            <h2>MSI Degree Requirements</h2>
+        </div>
+
+
+        <div class="card"><h5>MSI Degree Requirements</h5>
             <p>Refer to these resources to ensure you are on the right track to graduate.</p>
-                <h3>MSI requirements</h3>
+                <h6>MSI requirements</h6>
                 <ul>
                     <li>39 School of Information Credit</li>
                     <li>48 total credits (graduate level)</li>
@@ -80,11 +88,11 @@
                     <li><a href="https://docs.google.com/document/d/1ptPejHcU7QmAMGjaDcY5HnfbUolypxCbR-yAr_0gOSo/edit?tab=t.0">Big Data Analytics</a></li>
                     <li><a href="https://docs.google.com/document/d/1U1sHfytSyyFCsZij2YPfFru_oAszXG-7d3qakU0vbC8/edit?tab=t.0">User-Centered Agile Development</a></li>
                 </ul>
-        </section>
-        <section>
-            <h2>Tutoring Resources</h2>
+        </div>
+
+        <div class="card"><h7>Tutoring Resources</h7>
             <p>UMSI offers free tutoring for programming and math.</p>
-                <h3>Programming Tutoring</h3>
+                <h8>Programming Tutoring</h8>
                 <p>UMSI peer tutors are able to assist with SI 506, SI 507, and general Python help.</p>
                 <a href="https://sites.google.com/umich.edu/umsitutoring/umsi-programming-tutoring?authuser=0">Book appointments here</a>
         </section>

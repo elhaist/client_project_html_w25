@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/block_m.png" />
     <title>Student Success Portal</title>
 </head>
 <body>
-    <header>
-                <a href = "#main">Skip to Main Content</a>
-            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-            <nav>
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "academicsuccess.html">Academic Success</a></li>
-                    <li><a href = "schoollifebalance.html">School and Life Balance</a></li>
-                    <li><a href = "timesofcrisisresources.html">Resources for Times of Crisis</a></li>
-                </ul>
-            </nav> 
-            <h1>Resources for Times of Crisis</h1> 
+    <div class="skip"><a href="">Skip to Main Content</a></div>
+    <header class="header">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "academicsuccess.html">Academic Success</a></li>
+                <li><a href = "schoollifebalance.html">School and Life Balance</a></li>
+                <li><a href = "timesofcrisisresources.html" class="active">Resources for Times of Crisis</a></li>
+            </ul>
+        </nav>
+        
     </header>
-    <main id="main">
-        <section>
-            <h2>Welcome to the Resources for Times of Crisis Page</h2>
+
+
+    <main class="container" id="main">
+        <div class="container">
+            <h1>Resources for Times of Crisis Page</h1>
             <p>This page is a meant to provide resources and support to students who are enduring a difficult time. </p>
             <p>On this pages you can find resources related to the following topics:</p>
             <ol>
@@ -30,13 +35,13 @@
                 <li>Finanical Help Resources</li>
                 <li>Housing and Transportation Resources</li>
             </ol>
-        </section>
-        <section>
-            <h2>Mental Health Resources</h2>
+        </div>
+
+        <div class="container"><h2>Mental Health Resources</h2>
             <p>Refer to these resources for any mental health realted topics.</p>
-        </section>
-        <section>
-            <h3>Counseling and Psychological Services (CAPS)</h3>
+        </div>
+
+        <div class="card"><h3>Counseling and Psychological Services (CAPS)</h3>
             <p>CAPS is offered through the University Health & Counseling (UHC) department at the University of Michigan.</p>
             <p>CAPS offers a variety of services to students. CAPS offers non-emergency and emergency services.</p>
             <p>Some of the non-emergency services resources offered by CAPS include:</p>
@@ -52,11 +57,15 @@
                 <li><a href="https://caps.umich.edu/topic/sexualized-violence">Sexual Assault Services</a></li>
                 <li><a href="https://caps.umich.edu/content/suicide-prevention">Sucicide Prevention Services</a></li>
             </ul>
-        </section>
+        </div>
 
-        <section>
-            <h2>Food Pantry Resources</h2>
+
+        <div class="container">
+            <h4>Food Pantry Resources</h4>
             <img src="images/carrots.jpg" alt="Carrots">
+        </div>
+
+        <div class="card"><h5>Maize and Blue Cupboard</h5>
             <p>The University of Michigan provides free access to the Maize and Blue Cupboard (campus food pantry) to all students.</p>
             <p>To visit the Maize and Blue Cupboard, students just need to make a prior appointment.</p>
             <p><a href="https://calendly.com/mbcappointments/mbc-shopping-appointments?month=2025-01">Make an apointment through their sign-up page.</a></p>
@@ -69,12 +78,14 @@
                 <li>Resources to support students</li>
             </ul>
             <p><strong>Fun Fact!</strong>The Maize and Blue Cupboard also provides free recipes on their website to provide some inspiration!</p>
-        </section>
+        </div>
 
-        <section>
-            <h2>Financial Help Resources</h2>
+        <div class="container">
+            <h6>Financial Help Resources</h6>
             <p>The University of Michigan provides numerous emergency funds, subsidy plans, and financial aid options for students facing financial difficulties.</p>
-            <h3>Financial Aid Options</h3>
+        
+        <div class="card"><h7>Finanical Aid</h7>
+            <h8>Financial Aid Options</h8>
             <p>Given that there are less finanical aid options for graduate students, the university recommends that students refer to their school or college for financial aid inquiries.</p>
             <p>MSI students should refer to the <strong>Tuition and Funding</strong> page from the School of Information.</p>
             <p>Other options for finacial aid help include:</p>
@@ -83,21 +94,29 @@
                 <li><a href="https://studentaid.gov/h/apply-for-aid/fafsa">Financial Assistance through FAFSA</a></li>
                 <li><a href="https://finance.umich.edu/finops/student/um-payment-plan">Setting up a tuition payment plan</a></li>
             </ul>
-            <h3>University Careers</h3>
+        </div>
+
+        <div class="card"><h9>University Careers</h9>
             <p>Working a part-time job on campus can be a way for students to earn additional income.</p>
             <p> <a href="https://careers.umich.edu/search-jobs">UM Careers Site</a></p>
-        </section>
+        </div>
+       
 
-        <section>
-            <h2>Housing and Transportation</h2>
-            <h3>Transportation</h3>
+        <div class="container">
+            <h10>Housing and Transportation</h10>
+        </div>
+        
+
+        <div class="card"><h12>Transportation</h12>
             <p>Transportation around campus and Ann Arbor can be stressful to students. Navigate these resources to make transportation less complicated.</p>
             <ul>
                 <li><a href="https://ltp.umich.edu/campus-transit/">Campus Transit</a></li>
                 <li><a href="https://ltp.umich.edu/campus-transit/after-hours/">Transportation After Hours</a></li>
                 <li><a href="https://ltp.umich.edu/campus-transit/routes-and-schedules/">UM Bus Ruotes</a></li>
-             </ul>   
-            <h3>Housing options during Times of Need</h3>
+             </ul> 
+        </div>
+             
+        <div class="card"><h12>Housing options during Times of Need</h12>
             <p>The university occassionaly provides housing assistance for students in need. View these resources to find options right for you:</p>
             <ul>
                 <li><a href="https://www.cew.umich.edu/advocacy-initiatives/students-with-children/">Housing Options for Student Caregivers</a></li>
@@ -105,7 +124,9 @@
                 <li><a href="https://www.michiganmedicine.org/community/community-health-services/housing-bureau-seniors">Senior Housing</a></li>
                 <li><a href="https://icc.coop/">Inter-Cooperative Council at Ann Arbor</a></li>
             </ul>
-        </section>
+        </div>
+
+
     </main>
     <footer>
         <p>UMSI Graduate Student Success Portal | <a href="http://127.0.0.1:5500/Client_Project_Starter_Code-main/index.html">Graduate Student Success Resources </a></p>

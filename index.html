@@ -3,61 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/block_m.png" />
     <title>Student Success Portal</title>
 </head>
 <body>
-    <header>
-            <a href = "#main">Skip to Main Content</a>
+    <div class="skip"><a href="">Skip to Main Content</a></div>
+    <header class="header">
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href = "index.html" class="active">Home</a></li>
                 <li><a href = "academicsuccess.html">Academic Success</a></li>
                 <li><a href = "schoollifebalance.html">School and Life Balance</a></li>
                 <li><a href = "timesofcrisisresources.html">Resources for Times of Crisis</a></li>
             </ul>
-            <img src="images/UHS.jpg" alt="University Health Services building">
         </nav>
-        <h1>UMSI Graduate Student Success Portal</h1>
-
     </header>
-    <main id="main">
-        <section>
-            <h2>Welcome to the UM Guide to Suceeding as a MSI Graduate Student!</h2>
-            <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
-            <p>This guide is set up to help you be successul inside and outside of the classroom during graduate school.</p>
-            <p>We have included resources on the following topics:</p>
-            <ol>
-                <li>Academic Success Resources</li>
-                <li>Mental Health Resources</li>
-                <li>Financial Help Resources</li>
-                <li>Food Security Resources</li>
-                <li>Housing Resources</li>
-                <li>And More!</li>
-            </ol>
-        </section>
-        <section>
-            <h2>Academic Success</h2>
-            <p>Navigating academics during graduate school can be difficult for many. Luckily, the University of Michigan has an abundance of resources to help you suceed academically. Use this portal to have easy access to the most important academic success resources for UMSI MSI students.</p>
-            <p>In terms of academic success, this portal offers detailed information about academic advising, semester calendars, and tutoring services.</p>
-            <article>
-                <h3>North Quadrangle</h3>
-                <figure>
-                    <img src="images/north_quad.jpg" alt="North Quadrangle building at University of Michigan">
-                    <figcaption>North Quadrangle building at University of Michigan</figcaption>
-                </figure>
-                <p>Many of the MSI classes are located in North Quad in Central Campus!</p>
-            </article>
-            <h2>Mental Health Resources</h2>
-                <figure>
-                    <img src="images/UHS.jpg" alt="University Health Services Building.">
-                    <figcaption>University of Michigan Health Services Building</figcaption>
-                </figure>
-                <h3>Counseling and Psychological Services (CAPS)</h3>
-                    <p>As a student, you have access to various mental health services, including emergency and non-emergency resources. These resources are through CAPS and the University Health Services (UHS).</p>
-        </section>
-        
-        <section>
+
+
+
+    <main class="container" id= "main">
+        <div class="container">
+            <h1>UMSI Graduate Student Success Portal</h1>
+            <img src="images/UHS.jpg" alt="University Health Services building">
+            
+            <div class="intro">Welcome to the UM Guide to Success as a MSI Graduate Student!
+                <p>This guide is set up to help you be successul inside and outside of the classroom during graduate school.</p>
+            </div>
+            
+            <div class="intro">We have included resources on the following topics:
+                <ol>
+                    <li>Academic Success Resources</li>
+                    <li>Mental Health Resources</li>
+                    <li>Financial Help Resources</li>
+                    <li>Food Security Resources</li>
+                    <li>Housing Resources</li>
+                    <li>And More!</li>
+                </ol>
+            </div>
+
+
+            <h2>Find more resources on the pages below!</h2>
+            
+            <div class="card"><h3>Academic Success</h3>
+                <p>This page offers detailed information about academic advising, semester calendars, and tutoring services. You will find the important academic success resources for UMSI MSI students here.</p>
+            </div>
+
+            <div class="card"><h4>School Life Balance</h4>
+                <p>Graduate school is more than just academics. It's important to cultivate a balanced life. View this page to help enjoy life outside the classroom!</p>
+            </div>
+
+            <div class="card"><h3>Resources for Times of Crisis</h3>
+                <p>Graduate school can be very difficult at times. View this page to find resources for:</p>
+                <ul>
+                    <li>Mental Health Resources</li>
+                    <li>Finacial Help</li>
+                    <li>Housing and Transportation Options</li>
+                    <li>The Food Pantry</li>
+                </ul>
+            </div>
+
+            <img src="images/north_quad.jpg" alt="North Quadrangle building at University of Michigan">
+            <img src="images/UHS.jpg" alt="University Health Services Building.">
+                   
+              
+                
+                   
+        <!-- <section>
             <h2>Financial Help Resources</h2>
             <p>Graduate school is a large investment and financial burden for many. While finances can be very stressful, this portal offers resources that may lessen students' financial burdens.</p>
             <p>Find funding oppurtunities, UM job portals, and tuition resources in this portal.</p>
@@ -77,8 +91,7 @@
 
         
         <section id="life-outside-classroom">
-            <h2>Life Outside the Classroom</h2>
-            <p>Graduate school is more than just academics. It's important to cultivate a balanced life. Here are some resources to help you enjoy life outside the classroom:</p>
+           
             <ul>
                 <li><strong>Student Organizations:</strong> Join one of the many student organizations to connect with peers who share your interests and passions.</li>
                 <li><strong>Arts and Culture:</strong> Explore UM's vibrant arts scene with events, exhibitions, and performances happening year-round.</li>
@@ -86,12 +99,20 @@
                 <li><strong>Community Engagement:</strong> Get involved with local volunteering opportunities and community service projects to make a positive impact.</li>
                 <li><strong>Housing and Dining:</strong> Find information on on-campus housing options and dining services to ensure a comfortable living experience.</li>
             </ul>
-        </section>
+        </section> -->
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
     </main>
     <footer>
         <p>UMSI Graduate Student Success Portal | <a href="http://127.0.0.1:5500/Client_Project_Starter_Code-main/index.html">Graduate Student Success Resources </a></p>
-        </footer>
+    </footer>
+
 </body>
 </html>
+
+
+
+<!-- <div class="card">FIVE</div>
+<div class="card">SIX</div>
+<div class="card">SEVEN</div>
+<div class="card">EIGHT</div> -->
