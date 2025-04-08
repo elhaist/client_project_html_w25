@@ -22,43 +22,65 @@
         </nav>
     </header>
 
-    <main class="container" id="main">
-        <h1>School and Life Resources</h1>
+    <main class="parent" id="main">
         <div class="container">
-            <h2>Welcome to the page for Resources to Help Balance School and Life!</h2>
-            <p>This page includes events to help students feel less overwhelmed by school and to promote a healthy lifestyle.</p>
-            <p>On this page, you can find events intended various demographics, including:</p>
-            <ol>
-                <li>First Generation Students</li>
-                <li>Women+</li>
-            </ol>
+            <h1>School and Life Resources</h1>
             <img src="images/student.JPG" alt="A student participating in an event">
-        </div>
+        </div> 
 
-        <div class="card"><h3>First Generation Student Events</h3>
-            <p>The First Generation department on campus frequently puts on events to support first-generation students and to create community.</p>
-            <a href="https://firstgen.umich.edu/events/">First Generation Events</a>
-        </div>
+            <div class="container">
+                <h2>Welcome to the page for Resources to Help Balance School and Life!</h2>
+            </div>
+            <div class="container">
+                <h3>This page includes events to help students feel less overwhelmed by school and to promote a healthy lifestyle.</h3>
+            </div>
+            <div class="container">
+                <h3>On this page, you can find events intended various demographics, including:</h3>
+                <ol>
+                    <li>First Generation Students</li>
+                    <li>Women+</li>
+                </ol>
+             </div>
 
-        <div class="card"><h3>Center for the Education of Women+ Events</h3>
-            <p>The Center for the Education of Women+ hosts a number of events and talks for students of all genders.</p>
-            <a href="https://www.cew.umich.edu/events-workshops/">Center for the Education of Women+ Events</a>
-        </div>
-           
-        <!-- <div class="video-container">
-            <iframe 
-              src="https://www.youtube.com/watch?v=hvVKuuCjpK4&t=1s">
-            </iframe>
-        </div> -->
+        <div class="card-container">
+            <div class="card">
+                <h3>Student Life</h3>
+                <p>Student Life is a department on campus that hosts a number of events for students. These events are open to all students.</p>
+                <a href="https://studentlife.umich.edu/"\>Student Life</a>
+            </div>
+            
+            <div class="card">
+                <h3>First Generation Student Events</h3>
+                <p>The First Generation department on campus frequently puts on events to support first-generation students and to create community.</p>
+                <a href="https://firstgen.umich.edu/events/">First Generation Events</a>
+            </div>
 
-        <div class="container">
+            <div class="card">
+                <h3>Center for the Education of Women+ Events</h3>
+                <p>The Center for the Education of Women+ hosts a number of events and talks for students of all genders.</p>
+                <a href="https://www.cew.umich.edu/events-workshops/">Center for the Education of Women+ Events</a>
+            </div>
+        </div> 
             <img src="images/cew.JPG" alt="Three students working together on a computer."> 
-            <img src="images/backpack.jpg" alt="Students wearing a backpack."> 
-        </div>
-    </main>
-    <footer>
-        <p>UMSI Graduate Student Success Portal | <a href="index.html">Graduate Student Success Resources </a></p>
-    </footer>
+            <img src="images/backpack.jpg" alt="Students wearing a backpack.">
     
+    
+        </main>
+
+      <!-- Footer code is from:https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/  -->
+      <footer>
+        <p>UMSI Graduate Student Success Portal |</p> 
+        <p>105 S State St, Ann Arbor, MI 48109 | </p>
+        <p>(734) 763-2285</p>
+            <p>© Copyrights <span id="year"></span> by Ellie Haist. All rights reserved.</p>
+    </footer>
+
 </body>
+
+<!-- Footer code is from:https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/  -->
+ 
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
 </html>

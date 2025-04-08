@@ -24,7 +24,7 @@
 
 
 
-    <main class="container" id= "main">
+    <main class="parent" id=    "main">
         <div class="container">
             <h1>UMSI Graduate Student Success Portal</h1>
             <img src="images/north_quad.jpg" alt="North Quad at University of Michigan">
@@ -34,7 +34,8 @@
                 <p>This guide is set up to help you be successul inside and outside of the classroom during graduate school.</p>
             </div>
             
-            <div class="container">You can find resources on the following topics:
+            <div class="container">
+                <h3>You can find resources on the following topics:</h3>
                 <ol>
                     <li>Academic Success Resources</li>
                     <li>Mental Health Resources</li>
@@ -48,30 +49,46 @@
 
             <h2>Find more resources on the pages below!</h2>
             
-            <div class="card"><h3>Academic Success</h3>
-                <p>This page offers detailed information about academic advising, semester calendars, and tutoring services. You will find the important academic success resources for UMSI MSI students here.</p>
-            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Academic Success</h3>
+                    <p>This page offers detailed information about academic advising, semester calendars, and tutoring services. You will find the important academic success resources for UMSI MSI students here.</p>
+                </div>
 
-            <div class="card"><h3>School Life Balance</h3>
-                <p>Graduate school is more than just academics. It's important to cultivate a balanced life. View this page to help enjoy life outside the classroom!</p>
-            </div>
+                <div class="card">
+                    <h3>School Life Balance</h3>
+                    <p>Graduate school is more than just academics. It's important to cultivate a balanced life. View this page to help enjoy life outside the classroom!</p>
+                </div>
 
-            <div class="card"><h3>Resources for Times of Crisis</h3>
-                <p>Graduate school can be very difficult at times. View this page to find resources for:</p>
-                <ul>
-                    <li>Mental Health Resources</li>
-                    <li>Finacial Help</li>
-                    <li>Housing and Transportation Options</li>
-                    <li>The Food Pantry</li>
-                </ul>
+                <div class="card">
+                    <h3>Resources for Times of Crisis</h3>
+                    <p>Graduate school can be very difficult at times. View this page to find resources for:</p>
+                    <ul>
+                        <li>Mental Health Resources</li>
+                        <li>Finacial Help</li>
+                        <li>Housing and Transportation Options</li>
+                        <li>The Food Pantry</li>
+                    </ul>
+                </div>
             </div>
 
             <img src="images/north_quad.jpg" alt="North Quadrangle building at University of Michigan">
             <img src="images/UHS.jpg" alt="University Health Services Building.">
     </main>
-    <footer>
-        <p>UMSI Graduate Student Success Portal | <a href="index.html">Graduate Student Success Resources </a></p>
-    </footer>
 
+    <!-- Footer code is from:https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/  -->
+
+    <footer>
+        <p>UMSI Graduate Student Success Portal |</p> 
+        <p>105 S State St, Ann Arbor, MI 48109 | </p>
+        <p>(734) 763-2285</p>
+            <p>© Copyrights <span id="year"></span> by Ellie Haist. All rights reserved.</p>
+    </footer>
 </body>
+
+<!-- Footer code is from:https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/  -->
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </html>
